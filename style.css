@@ -1,9 +1,16 @@
+body {
+    background-color: #f5efef;
+  }
 
 .navigation{
-    padding-top:20px;
-    padding-right:50px;
-    padding-bottom:0px;
-    padding-left:50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  margin: auto;
+  width: 50%;
+  padding: 25px;
   }
 
 header{
